@@ -46,7 +46,6 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
         credentialManager = CredentialManager.create(this)
-        updateFirebaseStatus()
 
         binding.btnLogin.setOnClickListener { submit() }
         binding.btnGoogle.setOnClickListener { signInWithGoogle() }
@@ -227,25 +226,6 @@ class LoginActivity : AppCompatActivity() {
             packageName
         )
         return if (resourceId == 0) null else getString(resourceId)
-    }
-
-    private fun updateFirebaseStatus() {
-        if (!BuildConfig.FIREBASE_CONFIGURED) {
-            binding.tvFirebaseStatus.setText(com.example.apprestaurante.R.string.firebase_pending)
-            return
-        }
-
-        val firebaseReady = runCatching {
-            FirebaseApp.initializeApp(this) ?: FirebaseApp.getInstance()
-        }.isSuccess && !getDefaultWebClientId().isNullOrBlank()
-
-        binding.tvFirebaseStatus.setText(
-            if (firebaseReady) {
-                com.example.apprestaurante.R.string.firebase_ready
-            } else {
-                com.example.apprestaurante.R.string.firebase_incomplete
-            }
-        )
     }
 
     private fun renderLoading(loading: Boolean) {

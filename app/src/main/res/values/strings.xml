@@ -17,7 +17,4 @@
     <string name="reception">Recepción</string>
     <string name="admin">Admin</string>
     <string name="google_firebase_note">Acceso con Google protegido por Firebase Authentication</string>
-    <string name="firebase_ready">Firebase Google: listo para iniciar sesión</string>
-    <string name="firebase_pending">Firebase Google: falta google-services.json</string>
-    <string name="firebase_incomplete">Firebase Google: configuración incompleta</string>
 </resources>

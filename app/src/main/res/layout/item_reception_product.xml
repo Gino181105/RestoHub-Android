@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_marginBottom="12dp"
     app:cardBackgroundColor="@color/surface"
-    app:cardCornerRadius="18dp"
+    app:cardCornerRadius="20dp"
     app:cardElevation="1dp"
     app:strokeColor="@color/outline_soft"
     app:strokeWidth="1dp">
@@ -19,8 +19,8 @@
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imgProduct"
-            android:layout_width="108dp"
-            android:layout_height="108dp"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
             android:contentDescription="Producto"
             android:scaleType="centerCrop"
             app:shapeAppearanceOverlay="@style/ShapeAppearance.RestoHub.Image" />
@@ -28,7 +28,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="14dp"
+            android:layout_marginStart="12dp"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -47,7 +47,7 @@
                 android:id="@+id/tvMeta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="2dp"
                 android:text="Categoría · S/ 0.00"
                 android:textColor="@color/text_secondary"
                 android:textSize="13sp" />
@@ -55,7 +55,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="6dp"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
@@ -73,28 +73,28 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_status_active"
-                    android:paddingHorizontal="10dp"
+                    android:paddingHorizontal="9dp"
                     android:paddingVertical="4dp"
                     android:text="ACTIVO"
                     android:textColor="@color/success"
-                    android:textSize="10sp"
+                    android:textSize="11sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
-                android:gravity="end|center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="end"
                 android:orientation="horizontal">
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnEdit"
                     style="@style/Widget.Material3.Button.TextButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="40dp"
+                    android:layout_height="42dp"
                     android:minWidth="0dp"
-                    android:paddingHorizontal="10dp"
+                    android:paddingHorizontal="12dp"
                     android:text="Editar"
                     android:textAllCaps="false" />
 
@@ -102,9 +102,9 @@
                     android:id="@+id/btnToggle"
                     style="@style/Widget.Material3.Button.TextButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="40dp"
+                    android:layout_height="42dp"
                     android:minWidth="0dp"
-                    android:paddingHorizontal="10dp"
+                    android:paddingHorizontal="12dp"
                     android:text="Desactivar"
                     android:textAllCaps="false" />
             </LinearLayout>

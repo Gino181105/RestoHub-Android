@@ -213,16 +213,6 @@
                     app:iconSize="21dp"
                     app:iconTint="@null"
                     app:strokeColor="@color/google_button_outline" />
-
-                <TextView
-                    android:id="@+id/tvFirebaseStatus"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:gravity="center"
-                    android:text="@string/firebase_pending"
-                    android:textColor="@color/text_hint"
-                    android:textSize="11sp" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
