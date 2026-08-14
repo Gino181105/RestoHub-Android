@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Lomo saltado",
+      "description": "Carne, cebolla, tomate, papas y arroz",
+      "category": "Fondos",
+      "price": 32.9,
+      "stock": 20,
+      "imageUrl": "",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Chicha morada",
+      "description": "Bebida tradicional",
+      "category": "Bebidas",
+      "price": 8,
+      "stock": 35,
+      "imageUrl": "",
+      "active": true
+    }
+  ],
+  "users": [
+    { "id": 1, "fullName": "Ana Administradora", "email": "admin@restohub.pe", "role": "ADMIN", "documentNumber": "", "active": true },
+    { "id": 2, "fullName": "Rosa Recepción", "email": "recepcionista@restohub.pe", "role": "RECEPTIONIST", "documentNumber": "", "active": true },
+    { "id": 3, "fullName": "Carlos Cliente", "email": "cliente@restohub.pe", "role": "CLIENT", "documentNumber": "74859632", "active": true }
+  ],
+  "orders": [],
+  "documents": []
+}
