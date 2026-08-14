@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/drawer_home" android:icon="@drawable/ic_home" android:title="Inicio" />
+        <item android:id="@+id/drawer_products" android:icon="@drawable/ic_restaurant" android:title="Productos" />
+        <item android:id="@+id/drawer_cart" android:icon="@drawable/ic_cart" android:title="Carrito" />
+        <item android:id="@+id/drawer_orders" android:icon="@drawable/ic_history" android:title="Pedidos" />
+        <item android:id="@+id/drawer_documents" android:icon="@drawable/ic_document" android:title="Boletas y facturas" />
+        <item android:id="@+id/drawer_users" android:icon="@drawable/ic_users" android:title="Usuarios y roles" />
+        <item android:id="@+id/drawer_profile" android:icon="@drawable/ic_profile" android:title="Mi perfil" />
+    </group>
+    <item android:id="@+id/drawer_logout" android:icon="@drawable/ic_logout" android:title="Cerrar sesión" />
+</menu>

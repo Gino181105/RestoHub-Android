@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RestoHub</string>
+    <string name="logo_restohub">Logo de RestoHub</string>
+    <string name="login_subtitle">Gestión gastronómica para clientes, recepción y administración</string>
+    <string name="welcome_back">Bienvenido</string>
+    <string name="login_instruction">Ingresa a tu cuenta para continuar</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Ingresar</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="create_client_account">Crear cuenta de cliente</string>
+    <string name="or_continue_with">o continúa con</string>
+    <string name="continue_with_google">Continuar con Google</string>
+    <string name="demo_access">Accesos de demostración</string>
+    <string name="client">Cliente</string>
+    <string name="reception">Recepción</string>
+    <string name="admin">Admin</string>
+    <string name="google_firebase_note">Acceso con Google protegido por Firebase Authentication</string>
+    <string name="firebase_ready">Firebase Google: listo para iniciar sesión</string>
+    <string name="firebase_pending">Firebase Google: falta google-services.json</string>
+    <string name="firebase_incomplete">Firebase Google: configuración incompleta</string>
+</resources>
